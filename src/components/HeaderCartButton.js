@@ -6,13 +6,13 @@ import { CartBubble } from './CartLengthBubble';
 
 const HeaderCartButton = (props) => {
   return (
-    <li className="cart">
+    <span className="cart">
       <Link exact className="nav" to="/cart">
         <i className="fas fa-shopping-cart"></i>
         <span className="textChange">Cart</span>
         <CartBubble />
       </Link>
-    </li>
+    </span>
   );
 };
 const mapStateToProps = (state) => {
