@@ -23,7 +23,7 @@ function homePage(props) {
           </a>{' '}
           <a className="help" href="https://wa.me/919553257157" target="_blank">
             {' '}
-            <p style={{ fontSize: '12px', marginTop: '-3px' }}>Help</p>{' '}
+            {/* <p style={{ fontSize: '12px', marginTop: '-3px' }}>Help</p>{' '} */}
           </a>{' '}
         </div>
         <div>
