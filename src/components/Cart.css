@@ -1,0 +1,97 @@
+.cartpage {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.cartContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding: 20px;
+  margin: 29px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 10px 10px 30px #bebebe, 10px 10px 30px #ffffff;
+}
+
+.cartPrice {
+  margin-bottom: 20px;
+  background-color: #5f3dc4;
+  color: white;
+  font-weight: 500;
+  flex-wrap: wrap;
+}
+
+.price {
+  background-color: #495057;
+  color: white;
+  padding: 9px 15px;
+  border-radius: 7px;
+  text-align: center;
+}
+
+.payNow {
+  padding: 23px 15px;
+
+  text-align: center;
+  margin-left: 20px;
+  background-color: #2b8a3e;
+}
+
+.emptyCart {
+  display: block;
+  width: 100%;
+  padding: 9px 10px;
+}
+
+.shopNow {
+  display: block;
+  width: 100%;
+  padding: 9px 10px;
+  background-color: #6741d9;
+  text-decoration: none;
+  margin-top: 20px;
+}
+.emptyCartContainer {
+  text-align: center;
+}
+.routerLink {
+  text-decoration: none;
+}
+
+.cartProductImage {
+  text-align: center;
+  width: 200px;
+  margin-bottom: 20px;
+}
+
+.cartTagline {
+  display: block;
+  margin-top: 15px;
+  text-align: center;
+}
+
+.myCart {
+  margin-bottom: 20px;
+  font-size: 20px;
+  text-align: left;
+}
+
+.payNowContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.inline {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+}

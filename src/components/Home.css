@@ -1,0 +1,83 @@
+.welcomeText {
+  text-align: center;
+  color: #212529;
+  font-size: 120%;
+  background-color: #ced4da;
+  /* padding: 10px 20px; */
+  border-radius: 5px;
+}
+
+.offerText {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  font-size: 1rem;
+}
+
+.newOffer {
+  display: block;
+  color: orangered;
+  margin-bottom: 5px;
+}
+
+.fa-tags {
+  margin-right: 3px;
+}
+
+.addToCart {
+  color: #ffffff;
+}
+
+.wel {
+  display: flex;
+  text-align: center;
+  color: #212529;
+  font-size: 120%;
+  background-color: #ced4da;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin: 20px 20px;
+  padding: 10px;
+}
+
+.upscBooks {
+  color: #5f3dc4;
+}
+.helpImg {
+  width: 10%;
+  border-radius: 100%;
+  /* border: #5f3dc4 5px solid; */
+
+  /* background: rgba(255, 255, 255, 0.3); */
+  box-shadow: 10px 80px 32px rgba(83, 83, 83, 0.37);
+  /* backdrop-filter: blur(10px); */
+  /* -webkit-backdrop-filter: blur(10px); */
+}
+
+.helpImg {
+  /* height: 150px; */
+  /* width: 100%; */
+  /* transform-origin: 50% 50%; */
+  /* transition: all 30s linear;
+   */
+  transition: all 0.3s ease-in;
+}
+
+.helpImg:hover {
+  transform: scale(1.4);
+}
+
+.help {
+  color: #212529;
+  font-weight: 500;
+}
+
+.whatsapp {
+  position: fixed;
+  bottom: 1.5rem;
+  right: -13rem;
+  z-index: 1000;
+}

@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.NavBar {
+  text-align: left;
+  background-color: #2874f0;
+  color: white;
+  text-decoration: none;
+  padding: 12px 15%;
+  position: fixed;
+  top: 0px;
+  right: 0rem;
+  left: 0rem;
+  z-index: 100;
+  box-shadow: 2px 2px 7px 2px #c4c4c4;
+}
+
+.pageLogo {
+  display: inline-block;
+  text-decoration: none;
+}
+
+img {
+  display: inline-block;
+
+  width: 75px;
+  margin-bottom: -5px;
+  text-decoration: none;
+}
+
+.tagLine {
+  font-size: 11px;
+  font-weight: 400;
+  width: 75px;
+  color: white;
+  text-decoration: none;
+}
+
+.tagLinePlus {
+  color: yellow;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.tagLineImage {
+  width: 10px;
+  position: absolute;
+  top: 90;
+  text-decoration: none;
+}
+
+i {
+  margin-right: 10px;
+  color: white;
+  font-size: 15px;
+}
+
+.cart {
+  float: right;
+  font-weight: 500;
+  margin-top: -2.2rem;
+  color: white;
+}
+
+.nav {
+  color: white;
+  text-decoration: none;
+}
