@@ -13,8 +13,8 @@ const Header = (props) => {
     <div className="NavBar">
       <ul>
         <li>
+          <Link className="pageLogo" to="/">
             <img src={img} alt="logo" className="image" />
-
             <div className="tagLine">
               <em>
                 Explore <span className="tagLinePlus">Plus</span>
