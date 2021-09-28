@@ -16,12 +16,12 @@ const Header = (props) => {
           <Link className="pageLogo" exact to="/">
             <img src={img} alt="logo" className="image" />
 
-            <li className="tagLine">
+            <div className="tagLine">
               <em>
                 Explore <span className="tagLinePlus">Plus</span>
                 <img className="tagLineImage" src={img2} alt="taglinelogo" />
               </em>
-            </li>
+            </div>
           </Link>
         </li>
 
