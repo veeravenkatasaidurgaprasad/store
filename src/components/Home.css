@@ -49,21 +49,12 @@
 .helpImg {
   width: 10%;
   border-radius: 100%;
-  /* border: #5f3dc4 5px solid; */
 
-  /* background: rgba(255, 255, 255, 0.3); */
   box-shadow: 10px 80px 32px rgba(83, 83, 83, 0.37);
-  /* backdrop-filter: blur(10px); */
-  /* -webkit-backdrop-filter: blur(10px); */
 }
 
 .helpImg {
-  /* height: 150px; */
-  /* width: 100%; */
-  /* transform-origin: 50% 50%; */
-  /* transition: all 30s linear;
-   */
-  transition: all 0.9s ease-in;
+  transition: all 0.9s ease-out;
 }
 
 .helpImg:hover {
