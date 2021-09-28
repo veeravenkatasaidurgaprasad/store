@@ -62,7 +62,7 @@ export default function ProductItem({
             className="addToCart"
             onClick={() => addtoCart(productDetails)}
           >
-            <i class="fas fa-shopping-cart"></i>Add to Cart
+            <i className="fas fa-shopping-cart"></i>Add to Cart
           </button>
           <Link
             onClick={() => addToProductDetails(productDetails)}
