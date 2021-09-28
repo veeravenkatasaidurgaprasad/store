@@ -13,7 +13,6 @@ const Header = (props) => {
     <div className="NavBar">
       <ul>
         <li>
-          <Link className="pageLogo" exact to="/">
             <img src={img} alt="logo" className="image" />
 
             <div className="tagLine">
