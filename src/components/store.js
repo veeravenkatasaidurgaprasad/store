@@ -415,6 +415,7 @@ let initialState = {
   ],
   cartItems: [],
   productPage: [],
+  count: 0,
 };
 
 export const counterReducer = function (state = initialState, action) {
@@ -504,10 +505,18 @@ export const counterReducer = function (state = initialState, action) {
       return { ...data };
     }
     case 'like': {
-      const like = document.querySelector('.fa-heart');
-      like.addEventListener('click', function () {
-        like.classList.toggle('like');
-      });
+      let data = { ...state };
+      {
+        const like = document.querySelector('.fa-heart');
+        like.addEventListener('click', function () {
+          like.classList.toggle('like');
+          function count() {
+            data.count = data.count + 1;
+          }
+          data.count = count();
+        });
+      }
+      return { ...data };
     }
     case 'UPDATEQUANTTY': {
       let data = { ...state };

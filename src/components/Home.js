@@ -34,7 +34,7 @@ function homePage(props) {
         </div>
         <div>
           <i onClick={() => props.like()} class="fas fa-heart"></i>
-          <div>Like</div>
+          <div>{props.productDetails.count} Like</div>
         </div>
       </div>
       <div className="products">
