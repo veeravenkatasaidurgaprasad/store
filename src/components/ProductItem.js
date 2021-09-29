@@ -69,7 +69,7 @@ export default function ProductItem({
             to="/productdatails"
           >
             <button className="bookDetails">
-              <i class="fas fa-info-circle"></i>Book Details
+              <i class="fas fa-info-circle"></i>
             </button>
           </Link>
         </div>
