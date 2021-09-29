@@ -72,3 +72,23 @@
   right: -13rem;
   z-index: 1000;
 }
+
+.help {
+  display: none;
+}
+
+.help:hover {
+  display: block;
+}
+
+.helpImg:hover + .help {
+  display: block;
+  color: azure;
+  background-color: #363636;
+  position: absolute;
+  bottom: 100%;
+  left: 37%;
+  border-radius: 3px;
+  padding: 10px 20px;
+  font-size: 10px;
+}

@@ -20,6 +20,7 @@ function homePage(props) {
               alt="help"
               className="helpImg"
             />
+            <div className="help">Help</div>
           </a>{' '}
           <a className="help" href="https://wa.me/919553257157" target="_blank">
             {' '}
