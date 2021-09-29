@@ -25,16 +25,15 @@ function homePage(props) {
           />
           <div className="help">Help</div>
         </a>{' '}
+        <div onClick={() => props.like()}>
+          <i class="fas fa-heart"></i>
+        </div>
         <div>
           {' '}
           <p>
-            Dussehra offer 50% off on all Books
+            50% off on all Books
             <NewOffer />
           </p>
-        </div>
-        <div>
-          <i onClick={() => props.like()} class="fas fa-heart"></i>
-          <div>{props.productDetails.count} Like</div>
         </div>
       </div>
       <div className="products">

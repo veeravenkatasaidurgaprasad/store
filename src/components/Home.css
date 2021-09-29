@@ -89,10 +89,14 @@
 }
 
 .fa-heart {
-  font-size: 20px;
+  font-size: 30px;
   color: rgb(255, 255, 255);
 }
 
 .like {
-  color: red;
+  color: rgb(252, 92, 92);
+}
+
+.likeBlue {
+  color: #5f3dc4;
 }
