@@ -503,7 +503,12 @@ export const counterReducer = function (state = initialState, action) {
       }
       return { ...data };
     }
-
+    case 'like': {
+      const like = document.querySelector('.fa-heart');
+      like.addEventListener('click', function () {
+        like.classList.toggle('like');
+      });
+    }
     case 'UPDATEQUANTTY': {
       let data = { ...state };
       const updatedItems = data.cartItems.map((item) =>

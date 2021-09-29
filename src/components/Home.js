@@ -6,11 +6,6 @@ import './Home.css';
 import NewOffer from './New';
 
 function homePage(props) {
-  function love() {
-    like.addEventListener('click', function () {
-      like.classList.add('like');
-    });
-  }
   return (
     <div>
       <div className="wel">
@@ -38,8 +33,8 @@ function homePage(props) {
           </p>
         </div>
         <div>
-          <i class="fas fa-heart"></i>
-          <div onClick={() => this.love}>Like</div>
+          <i onClick={() => props.like()} class="fas fa-heart"></i>
+          <div>Like</div>
         </div>
       </div>
       <div className="products">
@@ -72,6 +67,7 @@ const mapDispatchToProps = (dispatch) => {
       dispatch({ type: 'ProductDetailsPage', details }),
     filterProductPrice: () => dispatch({ type: 'filterPrice' }),
     allProducts: () => dispatch({ type: 'allProducts' }),
+    like: () => dispatch({ type: 'like' }),
   };
 };
 
