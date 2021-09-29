@@ -15,6 +15,7 @@ const Header = (props) => {
         <li>
           <Link className="pageLogo" to="/">
             <img src={img} alt="logo" className="image" />
+            <div className="homeHide">Home</div>
             <div className="tagLine">
               <em>
                 Explore <span className="tagLinePlus">Plus</span>
