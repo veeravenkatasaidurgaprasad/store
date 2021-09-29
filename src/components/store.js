@@ -505,8 +505,9 @@ export const counterReducer = function (state = initialState, action) {
     }
     case 'like': {
       const like = document.querySelector('.fa-heart');
-      like.addEventListener('click', () => {
-        like.classList.add('likeBlue');
+      like.classList.toggle('likeBlue');
+      like.addEventListener('mouseover', () => {
+        like.classList.add('like');
       });
     }
     case 'UPDATEQUANTTY': {
