@@ -13,20 +13,18 @@ function homePage(props) {
           <small>The Best Online Store </small>
           <p className="upscBooks">for UPSC Books </p>{' '}
         </div>
-        <div className="whatsapp">
-          <a href="https://wa.me/919553257157" target="_blank">
-            <img
-              src="https://cdn2.iconfinder.com/data/icons/social-messaging-ui-color-shapes-2-free/128/social-whatsapp-circle-512.png"
-              alt="help"
-              className="helpImg"
-            />
-            <div className="help">Help</div>
-          </a>{' '}
-          <a className="help" href="https://wa.me/919553257157" target="_blank">
-            {' '}
-            {/* <p style={{ fontSize: '12px', marginTop: '-3px' }}>Help</p>{' '} */}
-          </a>{' '}
-        </div>
+        <a
+          className="whatsapp"
+          href="https://wa.me/919553257157"
+          target="_blank"
+        >
+          <img
+            src="https://cdn2.iconfinder.com/data/icons/social-messaging-ui-color-shapes-2-free/128/social-whatsapp-circle-512.png"
+            alt="help"
+            className="helpImg"
+          />
+          <div className="help">Help</div>
+        </a>{' '}
         <div>
           {' '}
           <p>

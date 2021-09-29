@@ -40,6 +40,7 @@ li {
   border-radius: 3px;
   top: 100%;
   font-size: 10px;
+  font-weight: 500;
   padding: 10px 20px;
 }
 
@@ -96,6 +97,7 @@ i {
   border-radius: 3px;
   top: 100%;
   padding: 10px 20px;
+  font-weight: 500;
   font-size: 10px;
 }
 
