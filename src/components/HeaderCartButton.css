@@ -68,6 +68,19 @@ i {
   margin-top: -2.2rem;
   color: white;
 }
+.hide {
+  display: none;
+}
+.cart:hover + .hide {
+  display: block;
+  color: azure;
+  background-color: #1f1f1f;
+  position: absolute;
+  right: 15%;
+  border-radius: 3px;
+  top: 100%;
+  padding: 10px 20px;
+}
 
 .nav {
   color: white;

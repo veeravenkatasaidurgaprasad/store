@@ -26,6 +26,7 @@ const Header = (props) => {
 
         <li>
           <HeaderCartBtn />
+          <div className="hide">Cart</div>
         </li>
       </ul>
     </div>
