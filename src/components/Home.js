@@ -6,6 +6,11 @@ import './Home.css';
 import NewOffer from './New';
 
 function homePage(props) {
+  function love() {
+    like.addEventListener('click', function () {
+      like.classList.add('like');
+    });
+  }
   return (
     <div>
       <div className="wel">
@@ -31,6 +36,10 @@ function homePage(props) {
             Dussehra offer 50% off on all Books
             <NewOffer />
           </p>
+        </div>
+        <div>
+          <i class="fas fa-heart"></i>
+          <div onClick={() => this.love}>Like</div>
         </div>
       </div>
       <div className="products">
