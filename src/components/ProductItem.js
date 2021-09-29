@@ -41,6 +41,7 @@ export default function ProductItem({
               src={imgSrc}
               alt="productimage"
             />{' '}
+            <div className="details">Book details</div>
           </Link>
         </div>
         <h2 className="Product-title">{productDetails.title}</h2>
@@ -70,6 +71,7 @@ export default function ProductItem({
           >
             <button className="bookDetails">
               <i class="fas fa-info-circle"></i>
+              <div className="details">Book details</div>
             </button>
           </Link>
         </div>

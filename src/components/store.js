@@ -344,74 +344,6 @@ let initialState = {
       coalition government`,
       productNumber: 10,
     },
-    {
-      id: 2,
-      image:
-        'https://veeravenkatasaidurgaprasad.com/wp-content/uploads/2021/09/2.jpeg',
-      title: 'History of India',
-      catagory: 'indian Geography',
-      rating: '4.8',
-      price: 249,
-      description: `The book "History of Modern India", 6th edition is a must-read for the aspirants appearing for the Civil Services Examinations as well as the other state Services Examinations. It is conceived to cater to the requirements of not just students appearing for competitive examinations but also postgraduates, research scholars, academics and General readers who are interested in the country political, Civil and constitutional issues. The extant chapters have been thoroughly revised and updated as per the recent developments.<Salient features:
-      ✔ 80 chapters and 16 appendices covering the entire Indian political and constitutional spectrum
-      
-      ✔ chapters rearranged as per the latest pattern of the examination
-      
-      ✔ coverage on the recent developments in Jammu & Kashmir and Ladakh, constitutional interpretation, judicial review and judicial activism
-      
-      ✔ updated previous years’ questions and revised practice questions for both Preliminary and Mains Examinations
-      
-      ✔ one-stop reference for the Civil Services aspirants, students of law, political Science and public Administration
-      
-      ✔ 6 New chapters:
-      
-      Goods and Services Tax Council
-      
-      National Commission for backward classes
-      
-      National investigation agency
-      
-      National disaster Management
-      
-      role of regional parties
-      
-      coalition government`,
-      productNumber: 11,
-    },
-    {
-      id: 5,
-      image:
-        'https://veeravenkatasaidurgaprasad.com/wp-content/uploads/2021/09/5.jpeg',
-      title: 'indian Poilty',
-      catagory: 'English, Paperback, Rajiv Ahir',
-      rating: '4.8',
-      price: 523,
-      description: `The book "History of Modern India", 6th edition is a must-read for the aspirants appearing for the Civil Services Examinations as well as the other state Services Examinations. It is conceived to cater to the requirements of not just students appearing for competitive examinations but also postgraduates, research scholars, academics and General readers who are interested in the country political, Civil and constitutional issues. The extant chapters have been thoroughly revised and updated as per the recent developments.<Salient features:
-      ✔ 80 chapters and 16 appendices covering the entire Indian political and constitutional spectrum
-      
-      ✔ chapters rearranged as per the latest pattern of the examination
-      
-      ✔ coverage on the recent developments in Jammu & Kashmir and Ladakh, constitutional interpretation, judicial review and judicial activism
-      
-      ✔ updated previous years’ questions and revised practice questions for both Preliminary and Mains Examinations
-      
-      ✔ one-stop reference for the Civil Services aspirants, students of law, political Science and public Administration
-      
-      ✔ 6 New chapters:
-      
-      Goods and Services Tax Council
-      
-      National Commission for backward classes
-      
-      National investigation agency
-      
-      National disaster Management
-      
-      role of regional parties
-      
-      coalition government`,
-      productNumber: 10,
-    },
   ],
   cartItems: [],
   productPage: [],
@@ -503,6 +435,7 @@ export const counterReducer = function (state = initialState, action) {
       }
       return { ...data };
     }
+
     case 'like': {
       const like = document.querySelector('.fa-heart');
       like.classList.toggle('likeBlue');

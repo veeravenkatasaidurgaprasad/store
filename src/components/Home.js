@@ -67,6 +67,7 @@ const mapDispatchToProps = (dispatch) => {
     filterProductPrice: () => dispatch({ type: 'filterPrice' }),
     allProducts: () => dispatch({ type: 'allProducts' }),
     like: () => dispatch({ type: 'like' }),
+    hover: () => dispatch({ type: 'hover' }),
   };
 };
 

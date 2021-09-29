@@ -98,9 +98,49 @@ button:hover {
   background: rgba(0, 0, 0, 0.5);
   text-decoration: none;
 }
+button.bookDetails i {
+  margin-right: 2.3px;
+}
+.details {
+  display: none;
+}
+
+.details:hover {
+  display: block;
+  background-color: #5f3dc4;
+  border-radius: 5px;
+  text-align: center;
+  padding: 2px;
+}
+
+button.bookDetails i:hover + .details {
+  display: block;
+  color: white;
+  background-color: #5f3dc4;
+  position: absolute;
+  right: 0.1%;
+  border-radius: 3px;
+  top: 80%;
+  padding: 10px 20px;
+  font-weight: 500;
+  font-size: 10px;
+}
+
+.Product-image:hover + .details {
+  display: block;
+  color: white;
+  background-color: #f76707;
+  position: absolute;
+  right: 30%;
+  border-radius: 3px;
+  top: 20%;
+  padding: 10px 20px;
+  font-weight: 500;
+  font-size: 10px;
+}
+
 .bookDetails {
   background-color: #5f3dc4;
-  /* margin-left: 10px; */
 }
 
 .addToCartContainer {
@@ -116,4 +156,7 @@ button:hover {
 
 .offer {
   text-decoration: line-through;
+}
+.addToCart {
+  width: 80%;
 }
