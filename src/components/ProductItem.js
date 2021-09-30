@@ -12,9 +12,10 @@ export default function ProductItem({
 
   let imgSrc = `${Api}${productDetails.id}.jpeg`;
   return (
-    <div className="Product">
-      <div>
-        {/* <a
+    <React.StrictMode>
+      <div className="Product">
+        <div>
+          {/* <a
           href="https://imjo.in/3zuF9b"
           target="_blank"
           style={{ color: 'white' }}
@@ -30,52 +31,53 @@ export default function ProductItem({
             Buy Now
           </div>
         </a> */}
-        <div className="homeImageContainer">
-          <Link
-            onClick={() => addToProductDetails(productDetails)}
-            to="/productdatails"
-          >
-            {' '}
-            <img
-              className="Product-image"
-              src={imgSrc}
-              alt="productimage"
-            />{' '}
-            <div className="details">Book details</div>
-          </Link>
-        </div>
-        <h2 className="Product-title">{productDetails.title}</h2>
-        <div className="Product-catagory">{productDetails.catagory} </div>
-        <div className="homePriceContainer">
-          <div className="Product-price">
-            <div className="fas fa-tags" />
-            Offer Price :<i className="fas fa-rupee-sign Product-price"></i>
-            {productDetails.price}{' '}
-          </div>
-          <div className="Product-price offer">
-            <i className="fas fa-rupee-sign Product-price "></i>
-            {productDetails.price * 2}
-          </div>
-        </div>
-
-        <div className="addToCartContainer">
-          <button
-            className="addToCart"
-            onClick={() => addtoCart(productDetails)}
-          >
-            <i className="fas fa-shopping-cart"></i>Add to Cart
-          </button>
-          <Link
-            onClick={() => addToProductDetails(productDetails)}
-            to="/productdatails"
-          >
-            <button className="bookDetails">
-              <i class="fas fa-info-circle"></i>
+          <div className="homeImageContainer">
+            <Link
+              onClick={() => addToProductDetails(productDetails)}
+              to="/productdatails"
+            >
+              {' '}
+              <img
+                className="Product-image"
+                src={imgSrc}
+                alt="productimage"
+              />{' '}
               <div className="details">Book details</div>
+            </Link>
+          </div>
+          <h2 className="Product-title">{productDetails.title}</h2>
+          <div className="Product-catagory">{productDetails.catagory} </div>
+          <div className="homePriceContainer">
+            <div className="Product-price">
+              <div className="fas fa-tags" />
+              Offer Price :<i className="fas fa-rupee-sign Product-price"></i>
+              {productDetails.price}{' '}
+            </div>
+            <div className="Product-price offer">
+              <i className="fas fa-rupee-sign Product-price "></i>
+              {productDetails.price * 2}
+            </div>
+          </div>
+
+          <div className="addToCartContainer">
+            <button
+              className="addToCart"
+              onClick={() => addtoCart(productDetails)}
+            >
+              <i className="fas fa-shopping-cart"></i>Add to Cart
             </button>
-          </Link>
+            <Link
+              onClick={() => addToProductDetails(productDetails)}
+              to="/productdatails"
+            >
+              <button className="bookDetails">
+                <i class="fas fa-info-circle"></i>
+                <div className="details">Book details</div>
+              </button>
+            </Link>
+          </div>
         </div>
       </div>
-    </div>
+    </React.StrictMode>
   );
 }
