@@ -440,9 +440,7 @@ export const counterReducer = function (state = initialState, action) {
     case 'like': {
       const like = document.querySelector('.fa-heart');
       setInterval(() => {
-        if (like.classList.contains('likeBlue')) {
-          like.classList.toggle('likeBlue');
-        }
+        like.classList.toggle('likeBlue');
       }, 60000 / 75);
     }
 

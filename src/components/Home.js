@@ -7,7 +7,7 @@ import NewOffer from './New';
 
 function homePage(props) {
   return (
-    <div onMouseOver={() => props.like()}>
+    <div onClick={() => props.like()}>
       <div className="wel">
         <div className="welcomeText ">
           <small>The Best Online Store </small>
