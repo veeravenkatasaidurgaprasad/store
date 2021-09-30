@@ -6,6 +6,7 @@ import { CartBubble } from './CartLengthBubble';
 
 const HeaderCartButton = (props) => {
   return (
+    <React.StrictMode>
     <span className="cart">
       <Link exact className="nav" to="/cart">
         <i className="fas fa-shopping-cart"></i>
@@ -13,6 +14,7 @@ const HeaderCartButton = (props) => {
         <CartBubble />
       </Link>
     </span>
+    </React.StrictMode>
   );
 };
 const mapStateToProps = (state) => {

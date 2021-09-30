@@ -4,7 +4,9 @@ import React from 'react';
 function App() {
   return (
     <div className="App">
-      <RouterComponent />
+      <React.StrictMode>
+        <RouterComponent />
+      </React.StrictMode>
     </div>
   );
 }
