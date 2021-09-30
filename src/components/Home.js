@@ -25,8 +25,8 @@ function homePage(props) {
           />
           <div className="help">Help</div>
         </a>{' '}
-        <div onClick={() => props.like()}>
-          <i class="fas fa-heart"></i>
+        <div >
+          <i onClick={() => props.like()} class="fas fa-heart"></i>
         </div>
         <div>
           {' '}
