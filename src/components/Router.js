@@ -7,7 +7,6 @@ import './ProductItem.css';
 import { ProductDetailsPage } from './ProductDetails';
 import { HeaderCart } from './Header';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import Mobiles from './Mobiles';
 function RouterComponent() {
   return (
     <Provider store={store}>
@@ -22,9 +21,6 @@ function RouterComponent() {
           </Route>
           <Route exact path="/">
             <Home />
-          </Route>
-          <Route path="/mobiles">
-            <Mobiles />
           </Route>
         </Switch>
       </Router>
