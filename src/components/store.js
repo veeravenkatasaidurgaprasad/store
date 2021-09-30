@@ -439,8 +439,11 @@ export const counterReducer = function (state = initialState, action) {
 
     case 'like': {
       const like = document.querySelector('.fa-heart');
+      const beat = document.querySelector('.likeText');
       setInterval(() => {
         like.classList.toggle('likeBlue');
+        beat.innerText = 'Lub';
+        beat.innerText = 'dub';
       }, 60000 / 75);
     }
 

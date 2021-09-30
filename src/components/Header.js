@@ -10,26 +10,28 @@ const Header = (props) => {
     'https://static-assets-web.flixcart.com/www/linchpin/fk-cp-zion/img/plus_aef861.png';
 
   return (
-    <div className="NavBar">
-      <ul>
-        <li>
-          <Link className="pageLogo" to="/">
-            <img src={img} alt="logo" className="image" />
-            <div className="homeHide">Home</div>
-            <div className="tagLine">
-              <em>
-                Explore <span className="tagLinePlus">Plus</span>
-                <img className="tagLineImage" src={img2} alt="taglinelogo" />
-              </em>
-            </div>
-          </Link>
-        </li>
+    <React.StrictMode>
+      <div className="NavBar">
+        <ul>
+          <li>
+            <Link className="pageLogo" to="/">
+              <img src={img} alt="logo" className="image" />
+              <div className="homeHide">Home</div>
+              <div className="tagLine">
+                <em>
+                  Explore <span className="tagLinePlus">Plus</span>
+                  <img className="tagLineImage" src={img2} alt="taglinelogo" />
+                </em>
+              </div>
+            </Link>
+          </li>
 
-        <li>
-          <HeaderCartBtn />
-        </li>
-      </ul>
-    </div>
+          <li>
+            <HeaderCartBtn />
+          </li>
+        </ul>
+      </div>
+    </React.StrictMode>
   );
 };
 
