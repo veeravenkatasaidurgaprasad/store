@@ -442,8 +442,6 @@ export const counterReducer = function (state = initialState, action) {
       const beat = document.querySelector('.likeText');
       setInterval(() => {
         like.classList.toggle('likeBlue');
-        beat.innerText = 'Lub';
-        beat.innerText = 'dub';
       }, 60000 / 75);
     }
 
