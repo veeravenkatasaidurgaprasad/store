@@ -347,6 +347,7 @@ let initialState = {
   ],
   cartItems: [],
   productPage: [],
+  count: 0,
 };
 
 export const counterReducer = function (state = initialState, action) {
@@ -440,6 +441,7 @@ export const counterReducer = function (state = initialState, action) {
       const like = document.querySelector('.fa-heart');
       like.classList.toggle('likeBlue');
     }
+
     case 'UPDATEQUANTTY': {
       let data = { ...state };
       const updatedItems = data.cartItems.map((item) =>
