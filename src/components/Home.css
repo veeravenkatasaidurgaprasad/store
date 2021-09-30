@@ -112,10 +112,14 @@
   color: rgb(255, 255, 255);
 }
 
-.like {
+/* .like {
   color: rgb(252, 92, 92);
-}
+} */
 
 .likeBlue {
   color: rgb(252, 92, 92);
+}
+
+.heart {
+  color: #5f3dc4;
 }

@@ -7,7 +7,7 @@ import NewOffer from './New';
 
 function homePage(props) {
   return (
-    <div>
+    <div onMouseOver={() => props.like()}>
       <div className="wel">
         <div className="welcomeText ">
           <small>The Best Online Store </small>
@@ -26,7 +26,7 @@ function homePage(props) {
           <div className="help">Help</div>
         </a>{' '}
         <div>
-          <i onClick={() => props.like()} class="fas fa-heart"></i>
+          <i class="fas fa-heart likeBlue"></i>
           <div className="like">Like</div>
         </div>
         <div>
