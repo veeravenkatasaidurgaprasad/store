@@ -62,6 +62,8 @@ body {
   text-align: center;
   border-radius: 5px;
 }
+
+
 .homeImageContainer {
   display: flex;
   align-content: center;
@@ -76,6 +78,10 @@ body {
   display: block;
   margin-bottom: 9px;
   border-radius: 5px;
+}
+
+.Product-image:hover {
+  opacity: 0.6;
 }
 
 i {
